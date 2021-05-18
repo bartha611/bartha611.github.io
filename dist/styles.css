@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: "Muli", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 14px 16px;
+}
+#about {
+  background-image: url("https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: black;
+  opacity: 0.9;
+  min-height: 700px;
+  overflow: auto;
+  margin-top: -20px;
+}
+#name {
+  color: grey;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0;
+}
+#title {
+  position: relative;
+  margin-top: 250px;
+}
+.jumbotron {
+  background-color: transparent !important;
+  margin: 0 auto;
+  text-align: center;
+}
+.lead,
+.display-3 {
+  color: white;
+}
+.page-section {
+  padding: 100px 0;
+}
+.section-heading {
+  margin-bottom: 75px;
+}
+.img-fluid {
+  max-height: 250px;
+  cursor: pointer;
+}
+div a {
+  text-decoration: none;
+  color: white;
+}
+div a:hover {
+  color: grey;
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+.project-content-heading {
+  margin: 15px 0;
+}
+.project-item {
+  margin-bottom: 15px;
+}
+.project-hover-content {
+  opacity: 0;
+}
+.project-image:hover .project-hover-content {
+  opacity: 1;
+  background-color: orange;
+  transition: all ease 1s;
+}
+.project-item:hover > img {
+  background-color: black;
+  opacity: 0.9;
+  transition: all ease 1s;
+}
+.project-content {
+  position: relative;
+  height: 200px;
+}
+.project-title {
+  margin: 15px 0;
+  font-family: "Montserrat", sans-serif;
+}
+.project-link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .project-item {
+    margin-bottom: 30px;
+  }
+}

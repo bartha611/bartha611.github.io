@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 10px; }
+
+body {
+  font-size: 1.6rem; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+.nav-item {
+  font-size: 1.6rem; }
+
+.about {
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  background-attachment: fixed;
+  background-position: center center;
+  background-image: url("../images/nature.jpg");
+  height: 50rem;
+  color: white;
+  text-align: center; }
+  .about__wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%; }
+  .about__container {
+    width: 40rem;
+    margin: 0 auto; }
+  .about__title {
+    position: relative;
+    padding-top: 100px;
+    font-size: 4.5rem; }
+  .about__btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .about__btn {
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    padding: .75rem 1.25rem;
+    margin-left: 0.5rem;
+    background: blue; }
+  .about__link {
+    color: white; }
+    .about__link:hover {
+      color: rgba(255, 255, 255, 0.4); }
+
+@media screen and (max-width: 420px) {
+  .about__container {
+    width: 90%; } }
+
+.portfolio__title {
+  font-size: 3.5rem;
+  margin: 1rem 0; }
+
+.project {
+  margin: 20px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 1.4rem; }
+  .project__image {
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 18rem; }
+  .project__logos {
+    display: flex;
+    margin: 1rem 0;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .project__logo {
+    margin: 0 1rem;
+    height: 4rem;
+    width: 4rem; }
+    .project__logo--rotate {
+      animation: infinite-spin 10s linear infinite; }
+  .project__title {
+    font-weight: bold;
+    font-size: 2.2rem; }
+  .project__content {
+    display: flex;
+    padding: 1rem 1.5rem;
+    font-family: "Muli", sans-serif;
+    flex-direction: column;
+    font-weight: 500;
+    justify-content: space-between; }
+  .project__description {
+    color: #6c757d; }
+  .project__links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between; }
+  .project__button {
+    border-radius: 1.5rem;
+    background: #007bff;
+    padding: 0.75rem 1rem;
+    color: white; }
+    .project__button:focus {
+      outline: none; }
+
+@keyframes infinite-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }

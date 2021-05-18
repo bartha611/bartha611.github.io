@@ -1,0 +1,90 @@
+$title_font: 'Montserrat', sans-serif;
+$title_fontSize: 2.2rem;
+$content_font: 'Muli', sans-serif;
+$nav_background: #000;
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+body {
+  font-size: 2rem;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  background: $nav_background;
+  a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 8px 16px;
+    outline: none;
+    font-family: $title_font;
+    font-size: 20px;
+  }
+  a:hover {
+    background-color: blue;
+  }
+}
+
+
+.about {
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../images/galaxy.jpeg");
+  height: 600px;
+  &__title {
+    position: relative;
+    padding-top: 100px;
+    font-size: 2.2rem;
+    .jumbotron {
+      color: white;
+      background: transparent;
+    }
+  }
+}
+
+.portfolio {
+  &__title {
+    margin: 20px 0;
+    font-size: $title_fontSize; 
+  }
+}
+
+.project {
+  margin: 20px 0;
+  box-shadow: 0 0 2px 0 gray;
+
+
+  &__image {
+    cursor: pointer;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &__content {
+    display: flex;
+    padding: 20px 10px;
+    font-family: $content_font;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 1rem;
+    justify-content: space-between;
+  }
+
+  &__description {
+    text-align: center;
+    height: 7rem;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: space-around;
+  }
+}

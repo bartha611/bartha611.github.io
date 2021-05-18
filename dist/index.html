@@ -1,0 +1,388 @@
+<head>
+  <title>Port</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="styles/main.css" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+    rel="stylesheet"
+  />
+  <script
+    src="https://kit.fontawesome.com/8f7eb8af77.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="#about" class="nav-link">Home</a></li>
+        <li class="nav-item">
+          <a href="#portfolio" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="about">
+    <div class="about__wrapper">
+      <div class="about__container">
+        <h2 class="about__title">Adam Barth</h2>
+        <p class="about__headline">Full Stack Web Developer</p>
+        <div class="about__btn-group">
+          <div class="about__btn">
+            <a class="about__link" href="https://github.com/bartha611"
+              >Github</a
+            >
+            <span><i class="fab fa-github"></i></span>
+          </div>
+          <div class="about__btn">
+            <a
+              class="about__link"
+              href="https://www.linkedin.com/in/adam-barth-62b483ba"
+              >LinkedIn</a
+            >
+            <span><i class="fab fa-linkedin-in"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section bg-light portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2 class="portfolio__title">Portfolio</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="project">
+            <a href="https://www.yakkchat.com" target="_blank">
+              <div class="project__background">
+                <img
+                  src="images/Flack.png"
+                  alt="Yakkchat"
+                  class="project__image"
+                />
+              </div>
+            </a>
+            <div class="container project__content">
+              <h5 class="project__title">Yakkchat</h5>
+              <p class="project__description text-muted">
+                Chat website built using Node.js with React frontend and
+                POSTGRESql database. Implemented features that allow users to
+                send and receive messages with different channels and teams.
+              </p>
+              <div class="project__logos">
+                <img
+                  src="images/logos/nodejs.png"
+                  alt="python"
+                  class="project__logo"
+                />
+                <img
+                  src="images/logos/reactLogo.png"
+                  alt="react"
+                  class="project__logo project__logo--rotate"
+                />
+                <img
+                  src="images/logos/docker.png"
+                  alt="docker"
+                  class="project__logo"
+                />
+              </div>
+              <div class="project__links">
+                <a href="https://www.liber611.com" target="_blank">
+                  <button class="project__button">
+                    Live Site
+                  </button>
+                </a>
+                <a href="https://github.com/bartha611/Liber" target="_blank">
+                  <button class="project__button">View Repo</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="project">
+            <a href="https://www.liber611.com" target="_blank">
+              <div class="project__background">
+                <img
+                  src="images/Liber.png"
+                  alt="Liber"
+                  class="project__image"
+                />
+              </div>
+            </a>
+            <div class="container project__content">
+              <h5 class="project__title">Liber</h5>
+              <p class="project__description text-muted">
+                Book review website designed using Django and React. Utilizes
+                the Google Book api to allow users to search books, rate books,
+                and write reviews.
+              </p>
+              <div class="project__logos">
+                <img
+                  src="images/pythonLogo.png"
+                  alt="python"
+                  class="project__logo"
+                />
+                <img
+                  src="images/logos/reactLogo.png"
+                  alt="react"
+                  class="project__logo project__logo--rotate"
+                />
+                <img
+                  src="images/logos/sass.png"
+                  alt="sass"
+                  class="project__logo"
+                />
+                <img
+                  src="images/logos/docker.png"
+                  alt="docker"
+                  class="project__logo"
+                />
+              </div>
+              <div class="project__links">
+                <a href="https://www.liber611.com" target="_blank">
+                  <button class="project__button">
+                    Live Site
+                  </button>
+                </a>
+                <a href="https://github.com/bartha611/Liber" target="_blank">
+                  <button class="project__button">View Repo</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="project">
+            <a
+              href="https://entertainment-dashboard-dklvcu6pu-bartha611.vercel.app/movies"
+              target="_blank"
+            >
+              <div class="project__background">
+                <img
+                  src="images/movieDash.png"
+                  alt="Movie Dashboard"
+                  class="project__image"
+                />
+              </div>
+            </a>
+            <div class="container project__content">
+              <h5 class="project__title">MovieDash</h5>
+              <p class="project__description text-muted">
+                Movie Dashboard website designed using Next.js and React.
+                Website allows users to search TV shows, movies, and cast/crew
+                members
+              </p>
+              <div class="project__logos">
+                <img
+                  src="images/logos/reactLogo.png"
+                  alt="react"
+                  class="project__logo project__logo--rotate"
+                />
+                <img
+                  src="images/logos/next.png"
+                  alt="next.js"
+                  class="project__logo"
+                />
+                <img
+                  src="images/logos/sass.png"
+                  alt="sass"
+                  class="project__logo"
+                />
+              </div>
+              <div class="project__links">
+                <a
+                  href="https://entertainment-dashboard-dklvcu6pu-bartha611.vercel.app/movies"
+                  target="_blank"
+                >
+                  <button class="project__button">
+                    Live Site
+                  </button>
+                </a>
+                <a href="https://github.com/bartha611/MoveDash" target="_blank">
+                  <button class="project__button">View Repo</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="project">
+            <div class="project__background">
+              <a
+                href="http://tetris611.s3-website-us-east-1.amazonaws.com/"
+                target="_blank"
+              >
+                <img
+                  src="images/tetris.png"
+                  alt="Tetris"
+                  class="project__image"
+                />
+              </a>
+              <div class="project__image-hover"></div>
+            </div>
+            <div class="project__content container">
+              <h5 class="project__title">TypeScript Tetris</h5>
+              <p class="project__description text-muted">
+                Classic game of tetris built using Typescript React and Redux.
+              </p>
+              <div class="project__logos">
+                <img
+                  src="images/logos/reactLogo.png"
+                  alt="react"
+                  class="project__logo project__logo--rotate"
+                />
+                <img
+                  src="images/logos/typescript.png"
+                  alt="Typescript"
+                  class="project__logo"
+                />
+                <img
+                  src="images/logos/sass.png"
+                  alt="sass"
+                  class="project__logo"
+                />
+              </div>
+              <div class="project__links">
+                <a
+                  href="http://tetris611.s3-website-us-east-1.amazonaws.com/"
+                  target="_blank"
+                >
+                  <button class="project__button">
+                    Live Site
+                  </button>
+                </a>
+                <a href="https://github.com/bartha611/Tetris" target="_blank">
+                  <button class="project__button">View Repo</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="project">
+            <div class="project__background">
+              <a
+                target="_blank"
+                href="https://stoic-galileo-b3837f.netlify.app/"
+              >
+                <img
+                  src="images/pong.png"
+                  alt="Pong Website"
+                  class="project__image"
+                />
+              </a>
+            </div>
+            <div class="project__content container">
+              <h5 class="project__title">Pong</h5>
+              <p class="project__description text-muted">
+                The classic game of Pong built using JQuery. The game simulates
+                a one-player game against an unbeatable AI opponent.
+              </p>
+              <div class="project__logos">
+                <img
+                  src="images/logos/jquery.png"
+                  alt="react"
+                  class="project__logo"
+                />
+                <img
+                  src="images/logos/css.png"
+                  alt="css"
+                  class="project__logo"
+                />
+              </div>
+              <div class="project__links">
+                <a
+                  target="_blank"
+                  href="https://stoic-galileo-b3837f.netlify.app/"
+                >
+                  <button class="project__button">
+                    Live Site
+                  </button>
+                </a>
+                <a href="https://github.com/bartha611/pong" target="_blank">
+                  <button class="project__button">View Repo</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="project">
+            <div class="project__background">
+              <a target="_blank" href="https://csb-1rf3w.netlify.app/">
+                <img
+                  src="images/tictactoe.png"
+                  alt="Tic Tac Toe"
+                  class="project__image"
+                />
+              </a>
+            </div>
+            <div class="project__content">
+              <h5 class="project__title">Tic Tac Toe</h5>
+              <p class="project__description">
+                One player tic-tac-toe game against an unbeatable AI player.
+              </p>
+              <div class="project__logos">
+                <img
+                  src="images/logos/javascript.png"
+                  alt="javascript"
+                  class="project__logo"
+                />
+                <img
+                  src="images/logos/css.png"
+                  alt="sass"
+                  class="project__logo"
+                />
+              </div>
+              <div class="project__links">
+                <a target="_blank" href="https://csb-1rf3w.netlify.app/">
+                  <button class="project__button">
+                    Live Site
+                  </button>
+                </a>
+                <a href="#" target="_blank">
+                  <button class="project__button">View Repo</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
